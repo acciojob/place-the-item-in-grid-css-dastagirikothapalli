@@ -1,13 +1,13 @@
-
-/* Your CSS Code here. */
 .holder {
     display: grid;
     width: 200px;
     height: 200px;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px; /* Optional spacing */
-    background-color: lightgray; /* Just for visualization */
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px;
+    gap: 0; /* Ensure no extra spacing */
+    margin: 0; /* Prevent unexpected margins */
+    border: 0; /* Ensure no border affects the size */
+    padding: 0; /* Avoid padding interference */
 }
 
 .item {
